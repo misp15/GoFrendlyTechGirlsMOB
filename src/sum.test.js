@@ -6,7 +6,9 @@ test('adds 1 + 2 to equal 3', () => {
 });
 
 //task 2
-test('sortArray 1, 3, 2, 8, 5, 4', () => {
+test('sortArray test', () => {
+    var x = [1, 3, 2, 8, 5, 4];
+    var y = [1, 3, 2, 8, 5, 4];
 
-  expect(sortArray([5, 3, 2, 8, 1, 4])).toBe([1, 3, 2, 8, 5, 4]);
+    expect(sortArray(x)).toEqual(y);
 });
